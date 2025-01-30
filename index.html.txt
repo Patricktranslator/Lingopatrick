@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick's Übersetzungsservice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .service {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patrick's Professioneller Übersetzungsservice</h1>
+        <p>Hochwertige Übersetzungen für Deutsch, Englisch, Französisch & mehr!</p>
+    </header>
+    
+    <nav>
+        <a href="#services">Dienstleistungen</a>
+        <a href="#about">Über mich</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    
+    <div class="container" id="services">
+        <h2>Meine Dienstleistungen</h2>
+        <div class="service">
+            <h3>Übersetzungen</h3>
+            <p>Professionelle Übersetzungen für Deutsch, Englisch, Französisch & mehr.</p>
+        </div>
+        <div class="service">
+            <h3>Korrekturlesen & Lektorat</h3>
+            <p>Grammatik-, Rechtschreib- und Stilprüfung für fehlerfreie Texte.</p>
+        </div>
+        <div class="service">
+            <h3>Technische Übersetzungen</h3>
+            <p>Fachübersetzungen für Technik, Medizin, Recht & Wissenschaft.</p>
+        </div>
+        <div class="service">
+            <h3>Webseiten-Übersetzungen</h3>
+            <p>Optimierte Inhalte für internationale Websites.</p>
+        </div>
+    </div>
+    
+    <div class="container" id="about">
+        <h2>Über mich</h2>
+        <p>Ich bin ein erfahrener Übersetzer, der qualitativ hochwertige und präzise Übersetzungen liefert. Mit schnellen Lieferzeiten und maßgeschneiderten Lösungen unterstütze ich Unternehmen und Privatpersonen.</p>
+    </div>
+    
+    <div class="contact" id="contact">
+        <h2>Kontakt</h2>
+        <p>E-Mail: <a href="mailto:deinemail@example.com" style="color: white;">deinemail@example.com</a></p>
+        <p>Fiverr-Profil: <a href="#" style="color: white;">Hier klicken</a></p>
+        <p>Upwork-Profil: <a href="#" style="color: white;">Hier klicken</a></p>
+    </div>
+</body>
+</html>
